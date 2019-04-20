@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>搜尋首頁</title>
+        <link  href="css/web_main.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/web_main.js"></script>
+    </head>
+
+    <body>
+        <a href="report.html">報告頁面</a>
+        <div class="header">
+
+            <span>關鍵字搜尋</span>
+            <input id="search_value" />
+            <select id="search_select" >
+                <option value="-1" selected>選擇條件</option>
+                <option value="1">區域</option>
+                <option value="2">縣市</option>
+                <option value="3">基站ID</option>
+                <option value="4">地址</option>
+                <option value="5">E&C</option>
+                <option value="6">CheckList次項次</option>
+<!--                <option value="7">本次施工</option>-->
+                <option value="8">說明</option>
+                <option value="9">年份</option>
+                <option value="10">季</option>
+                <option value="11">日期</option>
+                <option value="12">填表人</option>
+                <option value="13">經度緯度(例如:125~126,40~50)</option>
+<!--                <option value="14">符不符合</option>-->
+            </select>
+            <input id="go_search"type="button" value="搜尋"/>
+        </div>
+        <div class="middle" id="middle"></div>
+    </body>
+
+</html>

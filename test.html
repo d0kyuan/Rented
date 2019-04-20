@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+function showFileName() {
+    var fileName = $('#').val();
+    var clean=fileName.split('\\').pop(); // clean from C:\fakepath OR C:\fake_path 
+    alert('clean file name : '+ fileName);
+}
+</script>
+</head>
+<body>
+<form id="frmMain" name="frmMain">
+    <input type="file" id="myFile" name="myFile"/>
+    <a href="#" onclick="showFileName()">Show Name</a>
+</form>
+</body>
+</html>

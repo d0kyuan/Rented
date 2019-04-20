@@ -1,0 +1,46 @@
+.list_obj{
+    display: block;
+    width: 100%;
+    margin-top:20px;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    padding-top:2px;
+    padding-bottom: 2px;
+     font-family: monospace;
+   
+}
+.obj_name{
+    float: left;
+    margin-left:20px; 
+    min-width: 3%;
+}
+.obj_state{
+    float: left;
+    margin-left:20px;  /*it can be fixed too*/
+     min-width: 3%;
+}
+.objbtn{
+    float: left;
+    margin-left:20px;
+    cursor: pointer;
+    min-width: 5%;
+    color:firebrick;
+}
+.obj_time{
+    float: left;
+    margin-left:20px; 
+    min-width: 18%;
+    max-width: 18%;
+  
+}
+.obj_acept{
+      float: left;
+    margin-left:20px; 
+    min-width: 15%;
+}
+.objcontent{
+     float: left;
+    margin-left:20px; 
+    min-width: 30%;
+    
+}

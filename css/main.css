@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow: hidden;
+}
+.header{
+    display: block;
+    background: #fafafb;
+    width:100%;
+    min-height: 50px;
+    max-height:  50;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px #888888;
+}
+.can_click{
+    cursor: pointer;
+}
+.can_click:hover{
+  background: #efefef;
+}
+.center{
+    margin-top: 5px;
+    position: absolute;
+    width:100%;
+    height: calc(100% - 60px);
+}
+.right{
+    text-align: center;
+    padding: 2px;
+    background: #efefef;
+    border-right: 1px solid black;
+    position: absolute;
+    width:10%;
+    left: 0;
+    height: 100%;
+}
+.left{
+/*    background: #efefef;*/
+    position: absolute;
+    left: 10%;
+    width: 90% ;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+     
+    margin-left: 5px;
+    overflow-x: auto;
+}
+.title_word{
+    position: absolute;
+    right: 2%;
+    top: 2.5%; 
+}
+.title_word > span {
+    cursor: pointer;
+    margin-left: 10px;
+}
+.loginbtn{
+    cursor: pointer;
+}
+.selection{
+    cursor: pointer;
+    display: block;
+    width: 90%;
+    margin-top:20px;
+    border-bottom: 1px solid black;
+}
+.selection:hover{
+   
+     color:red;
+     -webkit-transition-duration: 0.5s;
+   
+}
+lable{
+    margin-right: 1%;
+    border-bottom: 1px solid black;
+}
+lable > span{
+    margin-right: 20px;
+}
+.member_pre{
+    margin-top: 20px;
+}
+.gobackbtn{
+    border-radius: 3px;
+    border: none;
+    padding: 6px 12px;
+    font-size: 1em;
+    background: #fff;
+    border: solid 1px #bbb;
+    width:5%;
+    text-align: center;
+    margin: 5px 5px;
+    cursor:pointer;
+}
+.gobackbtn:hover{
+  background-color: #CCD1D9;
+  color: #fff;
+}
+.small_box{
+    position: absolute;
+    bottom: 0%;
+    right: 2%;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+#talk_title{
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
